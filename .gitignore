@@ -1,0 +1,27 @@
+# 凭证与本地状态（防 key/cookie 泄露）
+.env
+.env.*
+!.env.example
+
+# Python 缓存
+__pycache__/
+*.pyc
+
+# 软件配置目录（开发环境不上传）
+.vscode/
+.idea/
+.zcode/
+.cursor/
+
+# 内部文档与开发状态
+*-private.md
+devlog/
+NOTES.md
+TODO.md
+REVIEW*.md
+UPGRADE_PLAN*.md
+
+# 个人解密密钥与解密输出（隐私，仅本地）
+ekeys/
+output/
+out/
